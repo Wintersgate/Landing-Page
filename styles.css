@@ -165,3 +165,14 @@ p4 {
 p5 {
     color: #e5e7eb;
 }
+
+.footer {
+    background-color: #1f2937;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+p6 {
+    color: #e5e7eb;
+}
