@@ -20,6 +20,7 @@ body {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .links {
@@ -59,4 +60,47 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 5px 16px 5px;
+    border-radius: 5px;
+}
+
+.information {   
+    display: flex;
+    justify-content: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+p1 {
+    color: #1f2937;
+    font-size: 18px;
+    padding: 0px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    
+}
+
+.card {
+    min-width: 150px;
+    min-height: 150px;
+    border: #3882f6;
+    border-style: solid;
+    border-radius: 5px;
+    
 }
