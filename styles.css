@@ -17,6 +17,10 @@ body {
     padding: 0px 200px 125px;
 }
 
+.text {
+    margin-right: 30px;
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
